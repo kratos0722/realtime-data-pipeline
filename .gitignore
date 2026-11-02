@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Warehouse / data
+*.duckdb
+*.duckdb.wal
+data/
+warehouse.duckdb
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
